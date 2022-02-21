@@ -1,0 +1,128 @@
+* {
+    color: white;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+    color: goldenrod !important;
+}
+
+.navbar {
+    background-color: black !important;
+    height: 100px;
+}
+
+.nav-link { 
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: goldenrod !important;
+}
+
+a {
+    color: white;
+}
+
+.active>a {
+    color: goldenrod !important;
+}
+
+#news_container{
+    background-color: rgb(44, 44, 44);
+    padding-left: 10%;
+    padding-top: 5%;
+    border: solid 1px rgb(44, 44, 44);
+}
+.news_element {
+    border: solid 2px darkgrey;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%; 
+    height: 10%;
+    grid-template: auto auto auto auto auto / 1fr 1fr;
+    margin-bottom: 40px;
+}
+.news_content {
+    width: 80%
+
+}
+img {
+    width:200px;
+    height: auto;
+    margin-left: 60px;
+}
+.blank{
+    
+    width:200px;
+    height: auto;
+    margin-left: 60px;
+    padding: 20px;
+    border: solid 2px rebeccapurple;
+}
+#page{
+    padding-top: 200px;
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.footer-logo-container {
+    margin:20px;
+}
+
+.footer-logo {
+    font-size: 50px;
+    font-weight: 900;
+    color: goldenrod;
+    text-align: center;
+}
+
+.footer-name {
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.footer-link>a {
+    margin: 20px;
+    color: white;
+}
+
+.footer-link>a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  
+}
+
+@media only screen and (max-width:768px) {
+    
+}
